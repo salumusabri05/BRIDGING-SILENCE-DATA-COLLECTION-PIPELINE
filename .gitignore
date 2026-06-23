@@ -1,0 +1,82 @@
+# ──────────────────────────────────────────────
+# Bridging Silence – Data Collection Pipeline
+# .gitignore
+# ──────────────────────────────────────────────
+
+# ── Videos ──────────────────────────────────
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+*.wmv
+*.m4v
+*.gif
+
+# ── Images ──────────────────────────────────
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.tif
+*.svg
+
+# ── NumPy / Data files ───────────────────────
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.csv
+*.parquet
+
+# ── Trained model weights ────────────────────
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.onnx
+tsl_word_model*
+
+# ── Data directories ─────────────────────────
+data/
+processed_data/
+processed_webcam_data/
+webcam_data/
+reconstruction/
+test/
+
+# ── Virtual environments ─────────────────────
+.venv/
+.venv_extract/
+venv/
+env/
+.env
+
+# ── Python cache ─────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ── Jupyter Notebook checkpoints ─────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── OS / Editor artifacts ─────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ── Logs ─────────────────────────────────────
+*.log
+logs/
